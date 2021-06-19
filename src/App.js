@@ -1,5 +1,7 @@
 import "./App.css";
+
 import { useState, useEffect } from "react";
+import projectText from "./utils/project-text";
 
 import LocomotiveScroll from "locomotive-scroll";
 
@@ -28,7 +30,6 @@ import githubIcon from "@iconify-icons/logos/github-icon";
 import linkedinIcon from "@iconify-icons/logos/linkedin-icon";
 import fileTypeNode from "@iconify-icons/vscode-icons/file-type-node";
 import googleGmail from "@iconify-icons/logos/google-gmail";
-
 library.add(faStar, faStarHalfAlt, faSun, faMoon);
 
 function App() {
@@ -265,26 +266,31 @@ function App() {
               name="Vinted"
               src="https://res.cloudinary.com/ryan777/video/upload/v1623805683/portfolio/vinted_qetdgj.mov"
               lien="https://ryan-vinted.netlify.app"
+              text={projectText.vinted}
             />
             <Project
               name="Marvel"
               src="https://res.cloudinary.com/ryan777/video/upload/v1623806749/portfolio/marvel_i7mao4.mov"
               lien="https://ryan-marvel.netlify.app"
+              text={projectText.marvel}
             />
             <Project
               name="Tellmemore(privé)"
               src="https://res.cloudinary.com/ryan777/video/upload/v1623805655/portfolio/tellmemore_wttg9m.mov"
+              text={projectText.tellmemore}
             />
 
             <Project
               name="Tripadvisor"
               src="https://res.cloudinary.com/ryan777/video/upload/v1623806736/portfolio/tripadvisor_l1augo.mov"
               lien="https://ryan-tripadvisor.netlify.app"
+              text={projectText.tripAdvisor}
             />
             <Project
               name="Deliveroo"
               src="https://res.cloudinary.com/ryan777/video/upload/v1623805656/portfolio/deliveroo_zbottd.mov"
               lien="https://ryan-delivro.netlify.app"
+              text={projectText.deliveroo}
             />
           </div>
         </div>

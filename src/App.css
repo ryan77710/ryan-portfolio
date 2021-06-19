@@ -332,7 +332,7 @@ section * {
   background: linear-gradient(0.25turn, transparent, rgb(221, 222, 223));
 }
 
-.project-container div {
+.project-container > div {
   margin: 10px;
   border-radius: 10px;
   display: flex;
@@ -343,6 +343,7 @@ section * {
 .project {
   display: flex;
   flex-direction: column;
+  position: relative;
 }
 .project:hover video {
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
@@ -366,6 +367,38 @@ section * {
 }
 .project-container-dark h3 a {
   color: white;
+}
+
+.project-button {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  border: none;
+  outline: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.project-info {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 30px;
+  font-size: 20px;
+  max-height: 300px;
+  overflow: hidden;
+  overflow-y: scroll;
+  border-radius: 20px;
+}
+.project-container-light .project-info {
+  border: 5px solid black;
+  color: black;
+}
+.project-container-dark .project-info {
+  border: 5px solid white;
+  color: aqua;
+}
+.project-button:hover {
+  background-color: darkcyan;
 }
 
 .others {
@@ -416,10 +449,11 @@ section * {
   outline: none;
   transition: 2s;
 }
-.video-initial {
+.size-initial {
   width: 20vw;
+  transition: 2s;
 }
-.video-growing {
+.size-growing {
   width: 40vw;
   transition: 2s;
 }
