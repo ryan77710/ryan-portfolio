@@ -218,7 +218,7 @@ section * {
 }
 .link-light {
   box-sizing: border-box;
-  background: linear-gradient(0.25turn, transparent, rgb(221, 222, 223));
+  background: linear-gradient(0.25turn, transparent, rgb(236, 228, 236));
 }
 
 .link-dark {
@@ -329,7 +329,7 @@ section * {
   padding: 30px;
 }
 .project-container-light {
-  background: linear-gradient(0.25turn, transparent, rgb(221, 222, 223));
+  background: linear-gradient(0.25turn, transparent, rgb(236, 228, 236));
 }
 
 .project-container > div {

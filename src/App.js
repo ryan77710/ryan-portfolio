@@ -170,6 +170,7 @@ function App() {
                 data-scroll
                 data-scroll-direction="horizontal"
                 data-scroll-speed="6"
+                target="_blanc"
                 href="mailto:ryanlollia77@gmail.com"
               >
                 <Icon icon={googleGmail} /> ryanlollia77@gmail.com
