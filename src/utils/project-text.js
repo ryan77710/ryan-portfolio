@@ -6,7 +6,7 @@ const projectText = {
   tripAdvisor:
     "Réplique d'une page du célèbre site d'avis de voyage tripAdvisor",
   tellmemore:
-    "Site privé m'envoyer un email pour peut être en savoir plus ou m'envoyer un lien.",
+    "Site privé m'envoyer un email pour peut être en savoir plus ou recevoir un lien.",
   deliveroo: "réplique d'une page du site de déliveroo ",
 };
 

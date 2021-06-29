@@ -92,7 +92,7 @@ function App() {
               data-scroll-speed="-2"
               onMouseEnter={() => setToggleHeader((x) => !x)}
             >
-              Dévelopeur junior front-end
+              Développeur junior front-end
             </h2>
             <h3
               data-scroll
