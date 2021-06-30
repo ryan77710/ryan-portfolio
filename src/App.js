@@ -310,7 +310,7 @@ function App() {
                 src="emoji.png"
                 alt="ok"
               />
-              <p>petit site pour trouver des émojies et les copier</p>
+              <p>Petit site pour trouver des émojies et les copier.</p>
             </div>
             <div data-scroll data-scroll-speed="2">
               <PictureProject
@@ -319,8 +319,8 @@ function App() {
                 alt="ok"
               />
               <p>
-                petit site To-Do liste permet d'ajouter une note, la rechercher,
-                et la supprimer
+                Petit site To-Do liste permet d'ajouter une note, la rechercher,
+                et la supprimer.
               </p>
             </div>
           </div>
