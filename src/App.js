@@ -328,7 +328,7 @@ function App() {
         <div data-scroll>
           <video className={`cv-video`} loop autoPlay="preload" muted>
             <source
-              src="https://res.cloudinary.com/ryan777/video/upload/v1623805569/portfolio/lollia-ryan_luf6pq.mp4"
+              src="https://res.cloudinary.com/ryan777/video/upload/v1625190990/portfolio/Copie_de_lollia_ryan_cv_irswxl.mp4"
               type="video/mp4"
             />
           </video>
